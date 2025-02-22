@@ -63,7 +63,7 @@ jobs:
         # Optional discussion category for the release
         discussion_category: # optional
         # GitHub token to authenticate with the repository.
-        token: ${{ github.token }} # optional, default is ${{ github.token }}
+        token: ${{ secrets.GH_PAT }} # optional, default is ${{ github.token }}
           
 
     # NOTE: The Gradle Wrapper is the default and recommended way to run Gradle (https://docs.gradle.org/current/userguide/gradle_wrapper.html).
