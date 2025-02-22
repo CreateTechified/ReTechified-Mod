@@ -7,7 +7,7 @@ license = "MIT License"
 modId = "retechified"
 version = "${version}"
 displayName = "ReTechified"
-authors = "Me!"
+authors = "pineapple, wrldmap"
 description = '''
 Essentially a texture pack bundled as a mod. Various texture updates for Create: Techified.
 '''
