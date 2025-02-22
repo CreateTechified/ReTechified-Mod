@@ -38,32 +38,14 @@ jobs:
 
     - name: Build with Gradle Wrapper
       run: ./gradlew build
-
-    - name: Automate GitHub Releases
-      # You may pin to the exact commit or the version.
-      # uses: nekofar/create-github-release@9ec0f8de0cdc2a6f1350c70e6c3435c3a1e28707
-      uses: nekofar/create-github-release@v1.0.12
-      with:
-        # The tag name for the release (e.g., v1.0.0)
-        tag: download
-        # Optional files to include in the release
-        files: # optional
-        # Optional release title
-        title: # optional
-        # Optional release notes
-        notes: # optional
-        # Optional path to a file containing release notes
-        notes_file: # optional
-        # Set to "true" to create a draft release
-        draft: # optional
-        # Set to "true" to create a pre-release
-        prerelease: # optional
-        # Set to "true" to mark this release as the latest
-        latest: true # optional
-        # Optional discussion category for the release
-        discussion_category: # optional
-        # GitHub token to authenticate with the repository.
-        token: ${{ secrets.GH_PAT }} # optional, default is ${{ github.token }}
+          
+                - name: Upload a Build Artifact
+                  uses: actions/upload-artifact@v4.6.1
+                  with:
+                  # Artifact name
+                  name: # optional, default is artifact
+                  # A file, directory or wildcard pattern that describes what to upload
+                  path: build/libs/*.jar
           
 
     # NOTE: The Gradle Wrapper is the default and recommended way to run Gradle (https://docs.gradle.org/current/userguide/gradle_wrapper.html).
