@@ -3,7 +3,7 @@
   <a href="https://mit-license.org/" target="_blank">
     <img alt="License: MIT License" src="https://img.shields.io/badge/License-MIT License-yellow.svg" />
   </a>
-  <a href="https://nightly.link/CreateTechified/ReTechified-Mod/workflows/gradle/main/" target="_blank">
+  <a href="https://nightly.link/CreateTechified/ReTechified-Mod/workflows/gradle/main/artifact" target="_blank">
     <img alt="Download: GitHub Actions" src="https://img.shields.io/badge/Download-GitHub Actions-lightgrey.svg" />
   </a>
 </p>
