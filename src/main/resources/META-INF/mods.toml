@@ -1,7 +1,7 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "MIT License"
 
 [[mods]]
 modId = "retechified"
@@ -9,7 +9,7 @@ version = "${version}"
 displayName = "ReTechified"
 authors = "Me!"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Essentially a texture pack bundled as a mod. Various texture updates for Create: Techified.
 '''
 #logoFile = ""
 
