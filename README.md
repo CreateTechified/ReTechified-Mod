@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> A mod which updates many textures for Create: Techified. Basically a resource pack.
+> General texture/datapack mod for Create: Techified. The stuff that I cant do with MCreator.
 
 ### 🏠 [Homepage](https://curseforge.com/minecraft/mc-mods/retechified-mod)
 
