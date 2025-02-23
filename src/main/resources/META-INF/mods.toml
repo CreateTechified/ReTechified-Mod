@@ -1,7 +1,8 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
-#issueTrackerURL = ""
+issueTrackerURL = "https://github.com/CreateTechified/ReTechified-Mod/issues"
 license = "MIT License"
+showAsResourcePack = true
 
 [[mods]]
 modId = "retechified"
@@ -11,7 +12,7 @@ authors = "pineapple, wrldmap"
 description = '''
 Essentially a texture pack bundled as a mod. Various texture updates for Create: Techified.
 '''
-#logoFile = ""
+logoFile = "pack.png"
 
 [[dependencies.retechified]]
 modId = "forge"
